@@ -27,6 +27,12 @@ const movie5 = new Movie("National Treasure","Walt Disney","PG");
 let moviesArr = [movie,movie2,movie3,movie4,movie5];
 console.log(movie.getPG(moviesArr));
 
+// output:[ Movie { title: 'Doctor', studio: 'SK Productions', rating: 'PG' },
+//   Movie {
+//     title: 'National Treasure',
+//     studio: 'Walt Disney',
+//     rating: 'PG' } ]]
+
 
 2.https://github.com/rvsp/typescript-oops/blob/master/Practice/class-circle.md
 
@@ -97,7 +103,12 @@ console.log(value.getArea());
 
 console.log(value.getCircumference());
 
-
+//output:Radius= 5
+// New Radius= 15
+// Color= red
+// New Color= green
+// Area= 706.8583470577034
+// Circumference= 94.24777960769379
 
 3. Write a “person” class to hold all the details.
 
@@ -166,3 +177,5 @@ class Uber{
 let uberprice=new Uber(7,14,3,10);
 
 console.log(uberprice.totalfare());
+
+//output:Totalcost : 128
